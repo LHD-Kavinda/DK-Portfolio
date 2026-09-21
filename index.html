@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DK Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">DK Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="hero" data-aos="fade-up">
+            <div class="hero-left">
+                <div class="profile-3d">
+                    <img src="images/ProfilePicture.JPG" alt="Profile Photo" />
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="name-animation">
+                    <span class="first-name">Deepana</span>
+                    <span class="last-name">Kavinda</span>
+                </div>
+                <div class="role-container">
+                    <h1 class="role-text dev-role">Software Developer</h1>
+                    <h1 class="role-text separator">&</h1>
+                    <h1 class="role-text qa-role">Quality Assurance Professional</h1>
+                </div>
+                <p class="tagline">Specializing in Development and Quality Engineering</p>
+                <div class="hero-cta-group">
+                    <a href="#info" class="cv-download-btn">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container" data-aos="fade-right">
+            <h2>About Me</h2>
+            <p>Dedicated QA Tester with expertise in manual and automated testing. Passionate about delivering high-quality software solutions and maintaining exceptional user experiences.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container" data-aos="fade-left">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-bug"></i>
+                    <h3>Manual Testing</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Automation Testing</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Selenium</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Test Planning</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container" data-aos="fade-up">
+            <h2>Recent Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>E-commerce Testing</h3>
+                    <p>End-to-end testing of an e-commerce platform</p>
+                </div>
+                <div class="project-card">
+                    <h3>Mobile App Testing</h3>
+                    <p>Comprehensive testing of iOS and Android applications</p>
+                </div>
+                <div class="project-card">
+                    <h3>Web Application Testing</h3>
+                    <p>Automated testing for complex web applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="cv-section">
+        <div class="container" data-aos="fade-right">
+            <h2>Professional Journey</h2>
+            <div class="cv-timeline">
+                <div class="cv-item">
+                    <div class="cv-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="cv-content">
+                        <h3>Bachelor of Software Engineering Honours Undergraduate</h3>
+                        <p>The Open University of Sri Lanka</p>
+                        <span class="cv-date">2022 - Present</span>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="cv-content">
+                        <h3>Quality Assurance Engineer</h3>
+                        <p>TechInnovate Solutions, Colombo</p>
+                        <ul>
+                            <li>Developed and executed comprehensive test strategies</li>
+                            <li>Implemented automated testing frameworks</li>
+                            <li>Reduced software defects by 40% through rigorous testing</li>
+                        </ul>
+                        <span class="cv-date">2022 - Present</span>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cv-content">
+                        <h3>Certifications</h3>
+                        <ul>
+                            <li>FSD Academy Certified Quality Tester</li>
+                            <li>Solo Learn Selenium WebDriver Certification</li>
+                            <li>ISTQB Certification Follower</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-links">
+                    <h3>Connect with Me</h3>
+                    <div class="social-links">
+                        <a href="mailto:kavindadeepana@gmail.com" class="contact-link" target="_blank">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="www.linkedin.com/in/deepana-kavinda" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/LHD-Kavinda" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DK Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
